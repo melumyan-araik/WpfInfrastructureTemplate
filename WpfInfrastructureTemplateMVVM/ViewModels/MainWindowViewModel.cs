@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WpfInfrastructureTemplate.ViewModels.Base;
+﻿using WpfInfrastructureTemplateMVVM.ViewModels.Base;
 
-namespace WpfInfrastructureTemplate.ViewModels
+namespace WpfInfrastructureTemplateMVVM.ViewModels
 {
     internal class MainWindowViewModel : ViewModelBase
     {
         #region Заголовок окна
-        private string _title;
+        private string _title = "Заголовок окна";
         /// <summary>Заголовок окна</summary>
         public string Title
         {
